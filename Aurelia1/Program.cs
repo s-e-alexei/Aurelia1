@@ -10,7 +10,7 @@ namespace Aurelia1
     {
         static void Main(string[] args)
         {
-            Cargos tanks = new Cargos("tanks");
+            Cargos holds = new Cargos("holds");
             //Cargos ballasts = new Cargos("ballast");
 
         }
