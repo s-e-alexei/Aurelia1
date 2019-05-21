@@ -8,9 +8,8 @@ namespace Aurelia1
 {
     class CargoList
     {
-
         public static List<CargoHold> Get(string filename)
-        //    static void Main(string[] args)
+        
         {
 
             List<Double[]> st1 = new List<Double[]>();
@@ -40,7 +39,7 @@ namespace Aurelia1
                 Console.WriteLine();
             }
 
-            Console.WriteLine("Input vi1:");
+           Console.WriteLine("Input vi1:");
 
             double vi1 = Convert.ToDouble(Console.ReadLine());
             int pos1 = 0;
@@ -65,7 +64,7 @@ namespace Aurelia1
             Console.WriteLine();
 
             Console.Read();
-
+            
             return cargoHold1;
         }
     }

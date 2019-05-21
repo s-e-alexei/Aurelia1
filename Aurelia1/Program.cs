@@ -12,7 +12,7 @@ namespace Aurelia1
         {
             Cargos holds = new Cargos("holds");
             //Cargos ballasts = new Cargos("ballast");
-
+            Console.Read();
         }
     }
 }
