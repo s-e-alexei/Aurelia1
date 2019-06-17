@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aurelia1.cs" />
-    <Compile Include="CargoHold.cs" />
-    <Compile Include="CargoList.cs" />
-    <Compile Include="Cargos.cs" />
+    <Compile Include="Compartment.cs" />
+    <Compile Include="CompartmentsList.cs" />
+    <Compile Include="Compartments.cs" />
+    <Compile Include="CompartmentsName.cs" />
+    <Compile Include="Hold.cs" />
+    <Compile Include="Holds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

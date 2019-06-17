@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Aurelia1
 {
-    class CargoHold
+    class Compartment
     {
         private Double level;
         private Double volume;
@@ -28,7 +28,7 @@ namespace Aurelia1
         public double FreeIx { get => freeIx; set => freeIx = value; }
         public double FreeIy { get => freeIy; set => freeIy = value; }
 
-        public CargoHold(Double level, Double volume, Double x, Double y, Double z, Double square, Double freeX, Double freeY, Double freeIx, Double freeIy)
+        public Compartment(Double level, Double volume, Double x, Double y, Double z, Double square, Double freeX, Double freeY, Double freeIx, Double freeIy)
         {
             this.level = level;
             this.volume = volume;
@@ -43,7 +43,7 @@ namespace Aurelia1
         }
         public override string ToString()
         {
-            return $"{Level},{Volume},{X}, {Y}, {Z} {Square}, {FreeX},{FreeY}, {FreeIx},{FreeIy} , m\n";
+            return $"{Level}, {Volume}, {X}, {Y}, {Z}, {Square}, {FreeX}, {FreeY}, {FreeIx}, {FreeIy}\n";
         }
     }
 }

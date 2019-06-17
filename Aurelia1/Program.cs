@@ -10,8 +10,10 @@ namespace Aurelia1
     {
         static void Main(string[] args)
         {
-            Cargos holds = new Cargos("holds");
+            Compartments holds = new Compartments("holds");
             //Cargos ballasts = new Cargos("ballast");
+            double [] xyz = holds.holds.GetByTitleValue("cargohold1", 32);
+
             Console.Read();
         }
     }
