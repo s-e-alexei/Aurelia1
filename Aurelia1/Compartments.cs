@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aurelia1;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace Aurelia1
 {
-    class Compartments
+   class Compartments
     {
         public Holds holds;
-        
 
         public Compartments(string dirname)
         {

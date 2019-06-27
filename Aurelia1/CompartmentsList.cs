@@ -33,7 +33,9 @@ namespace Aurelia1
 
             }
 
-           Console.WriteLine("Input vi1:");
+           /*
+             
+             Console.WriteLine("Input vi1:");
 
             double vi1 = 1; //Convert.ToDouble(Console.ReadLine());
             int pos1 = 0;
@@ -58,8 +60,9 @@ namespace Aurelia1
             Console.WriteLine();
             
   //          Console.Read();
-            
+            */
             return compartment;
+           
         }
     }
 }
